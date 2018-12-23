@@ -1,0 +1,26 @@
+[debug] [2018-12-23T17:11:44.476Z] ----------------------------------------------------------------------
+[debug] [2018-12-23T17:11:44.478Z] Command:       /usr/bin/node /home/jitl/.npm-prefix/bin/firebase serve --only firestore
+[debug] [2018-12-23T17:11:44.478Z] CLI Version:   6.2.2
+[debug] [2018-12-23T17:11:44.478Z] Platform:      linux
+[debug] [2018-12-23T17:11:44.478Z] Node Version:  v8.10.0
+[debug] [2018-12-23T17:11:44.478Z] Time:          Sun Dec 23 2018 09:11:44 GMT-0800 (PST)
+[debug] [2018-12-23T17:11:44.478Z] ----------------------------------------------------------------------
+[debug] 
+[warn] ⚠  firestore: WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/home/jitl/.cache/firebase/emulators/cloud-firestore-emulator-v1.2.2.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+
+[warn] ⚠  firestore: Dec 23, 2018 9:12:59 AM io.gapi.emulators.grpc.GrpcServer$3 operationComplete
+INFO: Adding handler(s) to newly registered Channel.
+
+[warn] ⚠  firestore: Dec 23, 2018 9:12:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
+[warn] ⚠  firestore: Dec 23, 2018 9:14:29 AM io.gapi.emulators.grpc.GrpcServer$3 operationComplete
+INFO: Adding handler(s) to newly registered Channel.
+
+[warn] ⚠  firestore: Dec 23, 2018 9:14:29 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+
